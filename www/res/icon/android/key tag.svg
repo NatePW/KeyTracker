@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="key tag.svg">
+   sodipodi:docname="key tag.svg"
+   inkscape:export-filename="C:\Users\Nate\KeyTracker\www\icon.png"
+   inkscape:export-xdpi="25.6"
+   inkscape:export-ydpi="25.6">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.58411654"
+     inkscape:zoom="2.2982535"
      inkscape:cx="379.84061"
-     inkscape:cy="337.32172"
+     inkscape:cy="111.06295"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -64,15 +67,16 @@
      id="layer1"
      transform="translate(0,-602.35966)">
     <rect
-       style="fill:#00e5ff;fill-opacity:1;fill-rule:evenodd;stroke:#00a5ff;stroke-width:10.37557983;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#00e5ff;fill-opacity:1;fill-rule:evenodd;stroke:#00a5ff;stroke-width:11.25788593;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2996"
-       width="196.27116"
-       height="330.97421"
-       x="134.16171"
-       y="635.5108" />
+       width="212.96143"
+       height="359.11917"
+       x="-534.72351"
+       y="561.60425"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
     <path
-       style="fill:#00e5ff;fill-opacity:1;stroke:#00a5ff;stroke-width:10.84615231;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 133.04145,966.92758 52.72205,51.43212 94.29214,0 51.43208,-51.43212 z"
+       style="fill:#00e5ff;fill-opacity:1;stroke:#00a5ff;stroke-width:11.76847363;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 272.42307,1030.3557 79.91092,-0.9898 72.3444,-72.34438 -3e-5,-78.92119 z"
        id="path3766"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -85,6 +89,6 @@
        sodipodi:rx="42.709255"
        sodipodi:ry="42.709255"
        d="m 395.55343,903.20831 a 42.709255,42.709255 0 1 1 -85.41851,0 42.709255,42.709255 0 1 1 85.41851,0 z"
-       transform="matrix(0.42860064,0,0,0.42860064,81.894006,606.9677)" />
+       transform="matrix(0.32883821,-0.32883821,0.32883821,0.32883821,-42.993618,793.42334)" />
   </g>
 </svg>
