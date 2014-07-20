@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css" /> 
     <script src="http://code.jquery.com/jquery-1.5.min.js"></script> 
     <script src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js"></script> 
+    <script type="text/javascript">
+    function changeColor(){
+        alert("hi");
+        document.getElementById("keytag-svg").contentDocument.getElementById("rect2996").style.fill = "#e400ff";
+    }
+    </script>
 <body> 
 <font size="5">
 <!-- Start of first page --> 
 <div data-role="page" id="foo"> 
 
     <div data-role="content">   
-        <h2>Foo</h2> 
-        <p>I'm first in the source order so I'm shown as the page.</p>      
-        <p>View internal page called <a href="#bar">bar</a></p> 
-        <p>View internal page called <a href="#baz" data-rel="dialog" data-transition="pop">baz</a> as a dialog.</p> 
+    <object id="keytag-svg" width="60" height="113" type="image/svg+xml" data="res/assets/keytag.svg"></object>    
+    
+    <button onclick="changeColor()">Change Color</button>
     </div><!-- /content --> 
 
 </div><!-- /page --> 
