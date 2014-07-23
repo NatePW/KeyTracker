@@ -2,56 +2,30 @@
 <html> 
     <head> 
     <meta charset="utf-8" /> 
-    <title>Key Tracker</title> 
+    <title>Key Tracker</title>
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css" /> 
     <script src="http://code.jquery.com/jquery-1.5.min.js"></script> 
     <script src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js"></script> 
-    <script type="text/javascript">
-    function loaded() {
-        var number = 30;
-        var colors = ("#FFFFFF","#444444","#888888");
-        for (i = 0; i < number; i++){
-        document.getElementById("keytagsdiv").innerHTML = document.getElementById("keytagsdiv").innerHTML + '\
-        <object id="keytag-svg' + i + '" width="60" height="113" type="image/svg+xml" data="res/assets/keytag.svg"></object>';
-        }
-    }
-    </script>
-<body onload="loaded()"> 
+    </head>
+<body> 
 <font size="5">
 <!-- Start of first page --> 
 <div data-role="page" id="foo"> 
 
     <div id="keytagsdiv" data-role="content">   
-    
-    </div><!-- /content --> 
-
-</div><!-- /page --> 
-
-
-<!-- Start of second page --> 
-<div data-role="page" id="bar">
-
-    <div data-role="content">   
-        <h2>Bar</h2> 
-        <p>I'm the bar page.</p>        
-        <p><a href="#foo" data-direction="reverse">Back to foo</a></p>  
-    </div><!-- /content --> 
-
-</div><!-- /page --> 
-
-
-<!-- Start of second page --> 
-<div data-role="page" id="baz"> 
-
-    <div data-role="content">   
-        <h2>Baz</h2> 
-        <p>I'm the baz page, viewed as a dialog.</p>        
-        <p><a href="#foo" data-rel="back">Back to foo</a></p>   
+    <button onclick="keytag = document.getElementById("keytag-svg0").getSVGDocument()">Click Me</button>
     </div><!-- /content --> 
 
 </div><!-- /page --> 
 
 </font>
+<script type="text/javascript">
+        var number = 10;
+        var colors = ["#FFFFFF","#444444","#888888"];
+        for (i = 0; i < number; i++){
+        document.getElementById("keytagsdiv").innerHTML = document.getElementById("keytagsdiv").innerHTML + '\
+        <object id="keytag-svg' + i + '" width="60" height="113" type="image/svg+xml" data="res/assets/keytag.svg"></object>';
+    </script>
 </body> 
 </html> 

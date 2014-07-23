@@ -72,13 +72,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-131.875,-634.15625)">
-    <rect
-       style="fill:#00e4ff;fill-opacity:1;fill-rule:evenodd;stroke:#00a5ff;stroke-width:2.97447872;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rectangle"
-       width="56.267185"
-       height="94.883904"
-       x="133.3607"
-       y="635.64337" />
     <path
        style="fill:#00e5ff;fill-opacity:1;stroke:#00a5ff;stroke-width:3.10938382;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 133.03964,730.65433 15.11436,14.74454 27.03175,0 14.7445,-14.74454 z"
@@ -109,5 +102,12 @@
          id="tspan3774"
          x="-706.41003"
          y="166.56938">Master 1</tspan></text>
+    <rect
+       style="fill:#00e4ff;fill-opacity:1;fill-rule:evenodd;stroke:#00a5ff;stroke-width:2.97447872;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       width="56.267185"
+       height="94.883904"
+       x="133.3607"
+       id="path5766"
+       y="635.64337" />
   </g>
 </svg>
