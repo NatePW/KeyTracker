@@ -14,7 +14,7 @@
 <div data-role="page" id="foo"> 
 
     <div id="keytagsdiv" data-role="content">   
-    <button onclick="keytag = document.getElementById("keytag-svg0").getSVGDocument()">Click Me</button>
+    <button onclick="setValue()">Click Me</button>
     </div><!-- /content --> 
 
 </div><!-- /page --> 
@@ -26,6 +26,17 @@
         for (i = 0; i < number; i++){
         document.getElementById("keytagsdiv").innerHTML = document.getElementById("keytagsdiv").innerHTML + '\
         <object id="keytag-svg' + i + '" width="60" height="113" type="image/svg+xml" data="res/assets/keytag.svg"></object>';
+        }
+        
+        function setValue(){
+            keytag = document.getElementById("keytag-svg0").getSVGDocument();
+            keytag.getElementById("tspan3774").innerHTML="Hi There!";
+            keytag.getElementsByTagName("rect")[0].style.setProperty("fill","#FFFF00");
+            keytag.getElementsByTagName("rect")[0].style.setProperty("stroke","#EEEE00");
+            keytag.getElementById("path3766").style.setProperty("fill","#FFFF00");
+            keytag.getElementById("path3766").style.setProperty("stroke","#EEEE00");
+            keytag.getElementById("path3768").style.setProperty("stroke","#EEEE00");
+        }
     </script>
 </body> 
 </html> 
