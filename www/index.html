@@ -21,6 +21,23 @@
 
 </font>
 <script type="text/javascript">
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        function onDeviceReady() {
+            var db = window.openDatabase("keys", "1.0", "Keytags", 200000);
+            db.transaction(function(tx) {
+            tx.executeSql('CREATE TABLE IF NOT EXISTS keys (id integer primary key, name text, color interger)');
+            tx.executeSql('INSERT INTO keys (name,color) VALUES (?,?)', ["Cart 1", 1]);
+            });
+            db.transaction(function(tx) {
+            tx.executeSql('CREATE TABLE IF NOT EXISTS keys (id integer primary key, name text, color interger)',[],readKeys, error);
+            });
+        }
+        
+        function readKeys(tx, results){
+            
+        
+        }
         var number = 10;
         var colors = ["#FFFFFF","#444444","#888888"];
         for (i = 0; i < number; i++){
